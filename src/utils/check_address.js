@@ -1,0 +1,1 @@
+//function to check address type

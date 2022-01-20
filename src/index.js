@@ -1,6 +1,11 @@
 const Crawler = require("crawler");
 const detectAddress = require("./utils/detect_address");
 const parseUrl = require("./utils/parse_url");
+const dotenv = require('dotenv');
+// const database = require("./config/database");
+dotenv.config();
+
+// database.connect();
 
 async function main() {
   var checked = {};
